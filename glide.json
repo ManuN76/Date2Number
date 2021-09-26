@@ -1,0 +1,16 @@
+{
+  "kind": "column",
+  "name": "Date1to2",
+  "description": "Date 1 to 2",
+  "author": "Manu",
+  "params": [
+    {
+      "name": "date",
+      "displayName": "Date",
+      "type": "date-time"
+    }
+  ],
+  "result": {
+    "type": "string"
+  }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Glide Yes-Code</title>
+</head>
+<div>
+  <span id="result"></span>
+</div>
+<script src='glidedate.js'></script>'
+<script src="function.js"></script>
+<script src="driver.js"></script>
+
+
+<script>
+  // TEST DEBUG !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  testDebug();
+ 
+  async function testDebug() {
+  let date1 = { type: "date-time", value: "01/10/2021, 12:00:00" };
+  
+  let result = await window.function(date1);
+  document.getElementById("result").innerHTML = convert(result);
+
+  }
+</script>
+</body>
+
+</html>
